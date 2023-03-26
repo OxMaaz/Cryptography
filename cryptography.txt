@@ -1,0 +1,23 @@
+for eg alice wanna send 1 eth to bob
+
+1.Alice would take bobs public key encrypt the message in it
+2.Alice would sign the message by his private key making a digital signature
+3.Bob would verify the signature by taking alice public key is this message be signed by alice or not
+
+If Alice wants to send 1 ETH to Bob, she would need to create a transaction on the Ethereum blockchain. 
+This transaction would include the following information:
+
+The amount of ETH being sent (in this case, 1 ETH)
+The recipient's public address (in this case, Bob's public address)
+Any additional information, such as a message or memo
+Once Alice has created the transaction, she would need to sign it with her private key. This is done using a
+ process called digital signing. Digital signing is a cryptographic technique that uses a hash function to create
+  a unique digital signature based on the data in the transaction and the private key.
+
+The digital signature is then included in the transaction along with the other information. When Bob receives the
+transaction, he can use Alice's public key to verify the digital signature and ensure that the transaction was 
+signed by Alice and that the transaction has not been tampered with.
+
+So to summarize, in a cryptocurrency transaction, digital signing is used to ensure the authenticity of the 
+transaction and verify the identity of the sender. The process involves creating a digital signature based on the
+transaction data and the sender's private key, and then verifying the signature using the sender's public key.
